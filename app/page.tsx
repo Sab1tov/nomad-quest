@@ -102,12 +102,12 @@ export default function Home() {
 
 	return (
 		<div className='flex min-h-screen items-center justify-center bg-black font-sans relative'>
-			<button
-				onClick={handleEasterEgg}
-				className='absolute top-0 right-0 w-24 h-24 bg-black border-0 cursor-pointer z-50'
-				aria-label='Easter egg'
-			/>
 			<main className='flex flex-col items-center justify-center gap-4 sm:gap-6 md:gap-8 px-4 sm:px-6 md:px-8 w-full max-w-4xl py-8'>
+				<button
+					onClick={handleEasterEgg}
+					className='w-24 h-24 bg-black border-0 cursor-pointer mb-4'
+					aria-label='Easter egg'
+				/>
 				<div className='text-center'>
 					<h1 className='text-xl sm:text-2xl md:text-3xl font-bold text-white mb-4 sm:mb-6 md:mb-8'>
 						Finish this piece of code
